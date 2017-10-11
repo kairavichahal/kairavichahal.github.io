@@ -41,7 +41,7 @@
     }
     #nav-links {
       margin-bottom: 10px;
-      text-align: center;
+      text-align: justify;
       text-justify: inter-word;
     }
     #updated {
@@ -63,7 +63,15 @@
     a:hover {
       text-decoration: none;
       color: #000;
+    }
+    #nav-links a:hover {
       background-color: #6FBF4D;
+    }
+    #projects a:hover {
+      background-color: #0F0;
+    }
+    #about a:hover {
+      background-color: #00F;
     }
     a:active {
       text-decoration: none;
@@ -73,10 +81,21 @@
 </head>
 
 <body>
-  <div style="position:fixed;top:50%;left:50%;height:13em;width:40em;margin-top:-6.5em;margin-left:-20em;text-align:center;">
-    <h1><span style="color: #6FBF4D">K A I R A V I</span> C H A H A L</h1>
-    <h2><a href="Kairavi_Chahal_Resume.pdf" target="_blank">résumé</a> </h2>
-    <div style="position:relative;left:50%;width:25em;margin-left:-12.5em;"><br>Please check back soon for more updates, or email me (you can find my email address on my résumé).</div>
+  <div id="header-links">
+    <div id="name">
+      <h1><span style="color: #6FBF4D">K A I R A V I</span> C H A H A L</h1>
+    </div>
+    <div id="nav-links">
+      <h2>
+        <a href="">about</a> |
+        <a href="Kairavi_Chahal_Resume.pdf" target="_blank">résumé</a> |
+        <a href="projects.html">work</a> |
+        <a href="">contact</a>
+      </h2>
+    </div>
+  </div>
+  <div>
+
   </div>
   <div id="updated"><script>document.write ("Last updated: " + lm);</script></div>
 </body>
