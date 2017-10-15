@@ -12,6 +12,12 @@
     spl = str.split(" ")
     lm = spl[2] + " " + spl[1] + " " +  spl[3]
   </script>
+  <script type="text/javascript">
+    var part1 = "kairavi";
+    var part2 = "chahal";
+    var hostname = "gmail";
+    var linktext = part1 + part2 + "@" + hostname + "." + "com";
+  </script>
   <style type="text/css">
     body {
       font-family: "Open Sans", sans-serif;
@@ -57,6 +63,10 @@
     a:link {
       text-decoration: none;
       color: #000;
+      font-weight: 600;
+    }
+    h2 a:link {
+      font-weight: normal;
     }
     a:visited {
       text-decoration: none;
@@ -78,7 +88,7 @@
   <div style="position:fixed;top:50%;left:50%;height:13em;width:40em;margin-top:-6.5em;margin-left:-20em;text-align:center;">
     <h1><span style="color: #6FBF4D">K A I R A V I</span> C H A H A L</h1>
     <h2><a href="Kairavi_Chahal_Resume.pdf" target="_blank">résumé</a> </h2>
-    <div style="position:relative;left:50%;width:30em;margin-left:-15em;"><br>Please check back soon for more updates, or send me an email!<br>[myname] [at] gmail</div>
+    <div style="position:relative;left:50%;width:30em;margin-left:-15em;"><br>Please check back soon for more updates, or<script>document.write("<a href='" + "mail" + "to:" + linktext + "'>" + "send me an email!" + "</a>");</script></div>
   </div>
   <div id="updated"><script>document.write ("Last updated: " + lm);</script></div>
 </body>
